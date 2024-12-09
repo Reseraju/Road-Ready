@@ -14,7 +14,7 @@
 
 Below is the screenshot of the platform's home page:
 
-![Home Page](./screenshots/Home.png)
+![Home Page](./Screenshots/Home.png)
 
 ## Getting Started
 
