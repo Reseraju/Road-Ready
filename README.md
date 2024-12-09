@@ -15,6 +15,7 @@
 Below is the screenshot of the platform's home page:
 
 ![Home Page](./Screenshots/Home.png)
+![Review Page](./Screenshots/Reviews.png)
 
 ## Getting Started
 
