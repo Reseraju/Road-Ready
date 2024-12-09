@@ -30,3 +30,39 @@ To get the application up and running locally, follow the steps below:
 1. Clone this repository:
    ```bash
    git clone https://github.com/Reseraju/RoadReady.git
+
+2. Frontend Setup (React):
+    - **Navigate to the `frontend` directory**:
+       ```bash
+       cd RoadReady/frontend
+    - **Install dependencies using npm**:
+       ```bash
+       npm install
+    - **Start the frontend development server**:
+       ```bash
+       npm start
+
+3. Backend Setup (Spring Boot):
+    - **Navigate to the backend directory**:
+       ```bash
+       cd ../backend
+    - **Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse).**
+4. Database Setup:
+    - **Ensure that you have a running MySQL or PostgreSQL database.**
+    - **Create a new database for the application (e.g., roadready)**
+    - **Update the database credentials in the `application.properties` file located in `backend/src/main/resources/application.properties`**
+      
+    - **Example**:
+      
+       ```bash
+       spring.datasource.url=jdbc:mysql://localhost:3306/roadready
+       
+       spring.datasource.username=YOUR_USERNAME
+       
+       spring.datasource.password=YOUR_PASSWORD
+    - **Run the Spring Boot application**
+
+
+
+- **React app: `http://localhost:3000`**
+- **Spring Boot API: `http://localhost:8081`**
